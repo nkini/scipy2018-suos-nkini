@@ -9,8 +9,8 @@ from numpy.testing import assert_almost_equal, assert_array_almost_equal
 
 def test_speed():
     """Test calculating wind speed."""
-    u = np.array([4., 2.,0., 0.])
-    v = np.array([0.,2., 4., 0.])
+    u = np.array([4., 2., 0., 0.])
+    v = np.array([0., 2., 4., 0.])
 
     speed = get_wind_speed(u, v)
 
